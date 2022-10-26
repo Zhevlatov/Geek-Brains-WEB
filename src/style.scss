@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_item {
+    text-align: center;
+    margin: 10px 10px;
+    border: 1px solid grey;
+    padding: auto auto;
+
+    &_img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    &_video {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    &_audio {
+        width: 400px;
+        height: 300px;
+        background-color: rgb(238, 236, 236);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &_head {
+        font: 1em sans-serif;
+    }
+}
